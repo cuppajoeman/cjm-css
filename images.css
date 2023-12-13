@@ -1,0 +1,8 @@
+.inverted {
+    background-color:white;
+    color:black;
+}
+
+.inverted-image {
+    filter: invert(100%);
+}

@@ -1,0 +1,25 @@
+/* usage */
+/*<div class="line-behind"><span class="line"></span> <h3>Begin My Giving Journey</h3> </div>*/
+
+.line-behind {
+    width: auto;
+    position: relative;
+    text-align: center
+}
+
+.line {
+    content:" ";
+    border-top: 3px solid white;
+    position: absolute;
+    width:100%;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+}
+
+.line-text {
+    display:inline-block;
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}

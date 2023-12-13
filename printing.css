@@ -1,0 +1,8 @@
+@media print {
+    table {
+        border: solid black !important;
+    }
+    td {
+        border: solid black !important;
+    }
+}

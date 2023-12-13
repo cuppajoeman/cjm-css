@@ -1,0 +1,30 @@
+a {
+    color: green;
+}
+
+a:visited {
+    color: grey;
+}
+
+li {
+    margin: 10px 0;
+}
+
+
+.fixed-links a:link {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.fixed-links a:visited {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.fixed-links a:hover {
+    text-decoration: none;
+}
+
+.fixed-links a:active {
+    text-decoration: none;
+}

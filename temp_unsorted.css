@@ -1,0 +1,33 @@
+
+img, video, source {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxed {
+    border: 2px solid white;
+}
+
+pre {
+    display:inline;
+}
+
+.goal::before  {
+    content: "GOAL: "
+}
+
+.goal {
+    background-color: seagreen;
+    color: black;
+}
+
+.todo::before  {
+    content: "TODO: "
+}
+
+.todo {
+    background-color: yellow;
+    color: black;
+}
+

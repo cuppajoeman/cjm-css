@@ -1,0 +1,14 @@
+/* Used to give a page some centering and not take up full screen */
+.wrapper {
+    width: 70%;     /* specify a width! */
+    margin: 0 auto; /* center */
+}
+
+.thin-wrapper {
+    width: 70%;     /* specify a width! */
+    margin: 0 auto; /* center */
+}
+
+.full-width {
+    width: 100%;
+}
