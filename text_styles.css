@@ -1,0 +1,35 @@
+.boxed {
+    border: 2px solid white;
+}
+
+pre {
+    display:inline;
+}
+
+.goal::before  {
+    content: "GOAL: "
+}
+
+.goal {
+    background-color: seagreen;
+    color: black;
+}
+
+.todo::before  {
+    content: "TODO: "
+}
+
+.todo {
+    background-color: yellow;
+    color: black;
+}
+
+.warning::before  {
+    content: "WARNING: "
+}
+
+.warning {
+    background-color: orange;
+    color: black;
+}
+
