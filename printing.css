@@ -1,4 +1,8 @@
 @media print {
+    body {
+        background-color : #ffffff !important;
+        color: #000000 !important;
+    }
     table {
         border: solid black !important;
     }
@@ -6,3 +10,4 @@
         border: solid black !important;
     }
 }
+
