@@ -6,6 +6,15 @@ pre {
     display:inline;
 }
 
+.note::before  {
+    content: "NOTE: "
+}
+
+.note {
+    background-color: yellow;
+    color: black;
+}
+
 .goal::before  {
     content: "GOAL: "
 }
