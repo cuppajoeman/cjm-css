@@ -1,0 +1,42 @@
+/* === Border Width === */
+.border         { border: 1px solid #ccc; }
+.border-0       { border: none; }
+.border-1       { border-width: 1px; }
+.border-2       { border-width: 2px; }
+.border-4       { border-width: 4px; }
+.border-8       { border-width: 8px; }
+
+/* === Border Sides === */
+.border-top     { border-top: 1px solid #ccc; }
+.border-right   { border-right: 1px solid #ccc; }
+.border-bottom  { border-bottom: 1px solid #ccc; }
+.border-left    { border-left: 1px solid #ccc; }
+
+/* === Border Colors === */
+.border-black   { border-color: black; }
+.border-white   { border-color: white; }
+.border-gray    { border-color: gray; }
+.border-red     { border-color: red; }
+.border-green   { border-color: green; }
+.border-blue    { border-color: blue; }
+.border-yellow  { border-color: yellow; }
+.border-purple  { border-color: purple; }
+
+/* === Border Styles === */
+.border-solid   { border-style: solid; }
+.border-dashed  { border-style: dashed; }
+.border-dotted  { border-style: dotted; }
+.border-double  { border-style: double; }
+.border-none    { border-style: none; }
+
+/* === Border Radius === */
+.rounded        { border-radius: 4px; }
+.rounded-sm     { border-radius: 2px; }
+.rounded-md     { border-radius: 6px; }
+.rounded-lg     { border-radius: 12px; }
+.rounded-full   { border-radius: 9999px; }
+
+/* === Utility Example Combinations === */
+/* Use these together in HTML:
+   <div class="border border-blue border-2 border-dashed rounded-md"></div>
+*/
